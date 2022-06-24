@@ -1,0 +1,7 @@
+price = float(input ("Informe o valor do price: " ))
+porc = float(input ("Informe o DiscountPercentage: " ))
+subtotal =  ( price * porc / 100 )
+#total = (subtotal / 100 )
+print("O valor do DiscountAmount: {:.2f} ".format(subtotal))
+amout = (price - subtotal)
+print("Valor do amout do price é: {:.2f}".format(amout))
